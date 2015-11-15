@@ -1,0 +1,15 @@
+{
+  "name": "LP7a",
+  "app": "app",
+  "dist": "dist",
+  "version": "0.0.0",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
