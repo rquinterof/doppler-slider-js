@@ -90,6 +90,8 @@ var readMic = function(analyser) {
     instrument.frequency.value = 0;
   }
 
+  
+
   if (window.scrollDemoIsActive && (band[0] > 4 || band[1] > 4)) {
     // I've reversed the order of the difference compared to the ball demo
     // because I think it feels better to *push* to go down, and *pull* to go up.
@@ -98,6 +100,9 @@ var readMic = function(analyser) {
     var scale = 10;
     $(window).scrollTop(currentScroll + scale*bandwidthDifference);
   }
+
+
+
 };
 
 var optimizeFrequency = function(osc, analyser, freqSweepStart, freqSweepEnd) {
