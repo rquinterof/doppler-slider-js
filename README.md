@@ -1,4 +1,4 @@
-# doppler-slides
+# doppler-slider
 Control your slides using the Doppler effect
 
 
